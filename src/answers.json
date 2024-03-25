@@ -1,5 +1,4 @@
-{
-    "answers":[
+[
     { "msg": "It is certain.", "color": "green" },
     { "msg": "It is decidedly so.", "color": "green" },
     { "msg": "Without a doubt.", "color": "green" },
@@ -20,6 +19,7 @@
     { "msg": "My sources say no.", "color": "red" },
     { "msg": "Outlook not so good.", "color": "red" },
     { "msg": "Very doubtful.", "color": "red" }
-    ]
-}
+    
+]
+
 

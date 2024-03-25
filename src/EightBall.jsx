@@ -1,23 +1,23 @@
 import { useState } from 'react';
 import defAnswers from "./answers.json";
 import { decision } from './random';
-import './App.css'
+import './EightBall.css'
 
-function EightBall({ options = defAnswers }) {
+function EightBall({ choice = defAnswers }) {
   const [answer, setAnswer] = useState({
     msg:"Think of a Question",
     color:"black"
-  })
+  });
 
   function handleClick(evt){
-    setAnswer(decision(options));
+    setAnswer(prevAnswer => decision(choice));
   }
 
   return (
     <div
       className="EightBall"
       onClick={handleClick}
-      style={{backgroundColor: answer.color}}>
+      style={{backgroundColor: answer.color }}>
       <b>{answer.msg}</b>  
     </div>
   );
