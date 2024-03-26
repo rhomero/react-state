@@ -17,3 +17,29 @@
     text-align: center;
     cursor: pointer;
   }
+
+  .ResetContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 1rem;
+    left: 0;
+  }
+
+  .ResetButton{
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
